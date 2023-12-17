@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main class="container">
+
+        <div class="box">
+            <button onclick="select('rock')" class="rock"></button>
+            <button onclick="select('paper')" class="paper"></button>
+            <button onclick="select('scissors')" class="scissors"></button>
+            <div class="box-choice">
+                <p>Sua escolha </p>
+                <img class="choice" src="./assets/black.png">
+                <h2>VS</h2>
+                <img class="choiceCPU" src="./assets/black.png">
+                <p>Escolha CPU</p>
+            </div>
+            <p class="resultGame">-</p>
+            <p class="humanScore">Sua Pontuação:</p>
+            <p class="machineScore">Pontuação CPU:</p>
+        </div>
+
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
